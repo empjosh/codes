@@ -1,0 +1,189 @@
+body {
+  background-image: url(../../images/snip1b.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+ 
+img {
+  border-color: rgb(250, 11, 11);
+  width: 15%;
+  height: 5%;
+  margin: 1px 1px 1px 1px;
+  padding: 1px 1px 1px 0px;
+}
+
+#start {
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 10px;
+  color: white;
+  text-transform: uppercase;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 100;
+  text-decoration: darkgreen;
+  font-size: 30px;
+  padding: 5px 5px 5px 5px;
+  margin: 5px 1px 5px 1px;
+}
+
+#start h2 {
+  color: white;
+  text-transform: uppercase;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 100;
+  text-decoration: darkgreen;
+  font-size: 30px;
+  padding: 5px 5px 5px 5px;
+  margin: 5px 1px 5px 1px;
+}
+
+#start h4 {
+  font-size: 20px;
+}
+
+h4 {
+  color: white;
+  font-size: 20px;
+}
+
+#sign-link {
+  color: white;
+  text-transform: initial;
+  font-size: 25px;
+}
+
+a {
+  color: cyan;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(21, 22, 24);
+  background-color: rgba(39, 194, 221, 0.85);
+  border-radius: 10px;
+}
+
+#Signup {
+  display: grid;
+  background-color: rgba(6, 81, 94, 0.6);
+  border-radius: 15px;
+  border: 1px solid turquoise;
+  color: rgb(234, 238, 240);
+  width: 35%;
+  margin: auto;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+}
+
+input {
+  text-decoration: none;
+  border: 1px solid turquoise;
+  border-radius: 4px;
+  background-color: rgb(8, 7, 4);
+  color: whitesmoke;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 9px;
+  outline: none;
+  margin: auto;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+input[type="email"] {
+  width: 70%;
+  padding: 9px;
+  outline: none;
+  margin: auto;
+  margin-top: 10px;
+}
+
+input[type="date"] {
+  width: 70%;
+  padding: 9px;
+  outline: none;
+  margin: auto;
+  margin-top: 10px;
+}
+
+input[type="telno"] {
+  width: 70%;
+  padding: 9px;
+  outline: none;
+  margin: auto;
+  margin-top: 10px;
+}
+
+input[type="password"] {
+  width: 70%;
+  padding: 9px;
+  outline: none;
+  margin: auto;
+  margin-top: 10px;
+}
+
+button {
+  border-radius: 4px;
+  width: 50%;
+  margin: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  outline: none;
+  border: 1px solid turquoise;
+  color: rgb(215, 236, 245);
+  background-color: rgba(6, 81, 94, 0.4);
+}
+
+button:hover {
+  border-radius: 4px;
+  width: 50%;
+  margin: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  outline: none;
+  border: 1px solid turquoise;
+  background-color: aquamarine;
+  color: black;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid turquoise;
+  border-radius: 4px;
+  background-color: rgb(8, 7, 4);
+  background-color: lightskyblue;
+  color: black;
+}
+
+#ends {
+  background-color: rgba(15, 184, 218, 0.75);
+  padding: 10px 10px 10px 10px;
+  margin-left: 25%;
+  width: 55%;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+#ends a {
+  color: rgb(46, 38, 3);
+  font-size: 18px;
+  margin: 2px 5px 2px 5px;
+  padding: 2px;
+}
+
+#ends #rep-smth {
+  padding-right: 9px;
+}
+
+#ends a:hover {
+  color: rgb(235, 225, 168);
+  background-color: rgb(19, 29, 31);
+  border-radius: 5px;
+}
