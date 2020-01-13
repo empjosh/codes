@@ -1,0 +1,106 @@
+*{
+    font-family: Arial, sans-serif, Helvetica;
+}
+
+nav{
+    float: right;
+    margin-right: 20px;
+}
+ 
+a{
+    text-decoration: none;
+    color: rgb(126, 126, 126);
+    font-size: small;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#im{
+    margin-left: 20px;
+}
+
+img{
+    position: relative;
+    width: 22%;
+    height: 20%;
+    margin-top: 10%;
+    margin-left: 40%;
+    padding-bottom: 20px;
+}
+
+form{
+    text-align: center;
+}
+
+input[type="search"]{
+    width: 46%;
+    padding: 13px;
+    border-radius: 20px;
+    border-style: solid;
+    border-top-width: 0.9px;
+    border-bottom-width: 0.9px;
+    border-left-width: 0.9px;
+    border-right-width: 0.9px;
+    border-color: rgb(196, 189, 189);
+    background-image: url('search.png');
+    background-repeat: no-repeat;
+    background-position: 15px;
+    background-size: 23px;
+    margin-left: 20px;
+}
+
+input[type="search"]:focus{
+    outline: none;
+    background-image: none;
+    background-image: url('search.png');
+    background-repeat: no-repeat;
+    background-position: 15px;
+    background-size: 23px;
+    padding-left: 40px;
+}
+
+button{
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border-style: unset;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#ext{
+    text-align: center;
+    margin-top: 40px;
+    font-size: small;
+}
+
+#ext a{
+    color: rgb(118, 118, 228);
+    padding: 3px;
+}
+
+#ext a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    margin-top: 10%;
+    background-color: rgb(226, 226, 226);
+    background-repeat: repeat-x;
+    padding: 20px 50px;  
+    align-items: center;
+    width: auto;
+}
+
+#ad, #bus, #ab, #how{
+    padding: 10px 10px;
+}
+
+#pri, #ter, #set{
+    float: right;
+    padding: 5px;
+}
