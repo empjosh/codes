@@ -21,9 +21,8 @@ img {
   color: white;
   text-transform: uppercase;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-weight: 100;
   text-decoration: darkgreen;
-  font-size: 30px;
+  font-size: 25px;
   padding: 5px 5px 5px 5px;
   margin: 5px 1px 5px 1px;
 }
@@ -146,9 +145,10 @@ button:hover {
 }
 
 #ends {
+  text-align: center;
   background-color: rgba(15, 184, 218, 0.75);
-  padding: 10px 10px 10px 10px;
-  margin-left: 25%;
+  padding: 10px 1px;
+  margin-left: 22%;
   width: 55%;
   border-radius: 5px;
   text-transform: uppercase;
@@ -157,16 +157,23 @@ button:hover {
 #ends a {
   color: rgb(46, 38, 3);
   font-size: 18px;
-  margin: 2px 5px 2px 5px;
-  padding: 2px;
-}
-
-#ends #rep-smth {
-  padding-right: 9px;
+  margin: 5px;
 }
 
 #ends a:hover {
   color: rgb(235, 225, 168);
   background-color: rgb(19, 29, 31);
   border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  #login {
+    width: 50%;
+    height: fit-content;
+  }
+
+  #ends {
+    text-align: center;
+    display: grid;
+  }
 }
